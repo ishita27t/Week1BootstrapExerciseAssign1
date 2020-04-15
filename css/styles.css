@@ -19,6 +19,13 @@
   background: #9575CD;
   color: floralwhite;
 }
+.modal-body {
+  background: rgb(208, 191, 241);
+  color: #0f0f0f;
+}
+.modal-title, .close {
+  color: floralwhite;
+}
 address {
   font-size: 80%;
   margin: 0px;
@@ -28,7 +35,7 @@ body {
   padding: 50px 0px 0px 0px;
   z-index: 0;
 }
-.navbar-dark {
+.navbar-dark, .modal-header {
   background-color: #512DA8;
 }
 .tab-content {
